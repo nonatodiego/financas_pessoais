@@ -1,4 +1,6 @@
 # Finanças Pessoais
-> Descrição curta sobre o que seu projeto faz.
+> Com a quantidade de contas digitais e cartões de crédito que uma pessoa pode ter atualmente, somado ao aumento dos preços, é comum que a pessoa acabe perdendo o controle de onde vem e pra onde vai o seu dinheiro. Com isso, precisamos de um programa que permita esta pessoa a registrar seus gastos, contas fixas, assinaturas, saldos em contas digitais, cartões de crédito para ter uma visão unificada de como estão suas contas. Além disso, o programa pode auxiliar a pessoa em sua vida financeira com dicas de como pode economizar dinheiro como identificar um número excessivo de assinaturas de streaming, sugerir o cancelamento de cartões de crédito com anuidade que não estejam sendo utilizados, ou até sugerir um orçamento para cada categoria e indicar quando está ultrapassando. Para melhorar o engajamento da pessoa com as suas finanças, uma abordagem gamificada pode ser utilizada com objetivos e recompensas. 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Finanças, dinheiro e investimentos estão entre os assuntos mais comentados atualmente. Na internet fica fácil encontrar vídeos, infográficos, blogs, sites, podcasts e perfis nas redes sociais que disseminam o conhecimento a respeito da educação financeira. 
+
+Porém, é de amplo conhecimento que o brasileiro possui um tabu em torno do tema. Muitos admitem ser descontrolados financeiramente e desorganizados quando o assunto é a gestão do orçamento. Seja ele familiar ou individual. 
