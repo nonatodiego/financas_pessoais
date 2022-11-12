@@ -4,15 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finanças Pessoais</title>
+    <title>FINANÇAS PESSOAIS</title>
+    <style>
+        .container{
+            display: flex;
+            align-self: flex-start;
+            background-position: 15%;
+            border: 1px solid black;
+            max-width: 350px;
+            font-size: 50px;
+            padding: 20px;
+        }
+
+        .item{
+            background-color: black;
+            font-size: 24px;
+            text-align: left;
+            margin: 5px;
+        }
+        
+        
+        .lateral{
+            background-position: 15; 
+            font-size: 24px;
+            align-content: space-between;
+            text-align: left;
+            margin: 5px;
+            border-radius: 1px;
+        }
+
+        .footer{
+            align-self: flex-end;
+            align-items: flex-end;
+            font-size: 24px;
+            background-position-x: center;
+            margin: 5px;
+            color: red;
+            
+        }
+
+        .column{
+            float: left;
+             width: 33.33%;
+             font-size: 18px;
+             text-align: center;
+        }
+
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+            font-size: 18px;
+            float: right;
+
+        .column1{
+            width: 100%;
+            font-size: 18px;
+            float: right;
+            text-align: center;
+            
+        }
+
+
+        
+
+    </style>
 </head>
 <body>
+    <div class="container">Finanças Pessoais</div>
+    <div class="lateral">Inicio</div>
+    <div class="lateral">Categorias</div>
+    <div class="lateral">Dicas</div>
+    <div class="lateral">Segurança</div>
+    <div class="lateral">Configuração</div>
+   
+    <ul>
+        <ol class="footer">SAIR</ol>
+    </ul>
+
+    <ul>
+
+        <ol class="column">Resumo</ol>
+        <ol class="column">Saldo</ol>
+        <ol class="column">R$ 2100,00</ol>
+    </ul>
+
+    <ul>
+        <ol class="row">Entradas</ol>
+        <ol class="row">R$ 4400,00</ol>
+    </ul>
+
+    <ul>
+        <ol class="column1">Despesas</ol>
+        <ol class="column1">R$ 2300,00</ol>
+    </ul>
     
-        <div id="photo" style="text-align: center">
-            <img style="vertical-align:middle" src="image.gif" alt="">     
-            <p style="vertical-align:middle">
-                Com a quantidade de contas digitais e cartões de crédito que uma pessoa pode ter atualmente, somado ao aumento dos preços, é comum que a pessoa acabe perdendo o controle de onde vem e pra onde vai o seu dinheiro. Com isso, precisamos de um programa que permita esta pessoa a registrar seus gastos, contas fixas, assinaturas, saldos em contas digitais, cartões de crédito para ter uma visão unificada de como estão suas contas. Além disso, o programa pode auxiliar a pessoa em sua vida financeira com dicas de como pode economizar dinheiro como identificar um número excessivo de assinaturas de streaming, sugerir o cancelamento de cartões de crédito com anuidade que não estejam sendo utilizados, ou até sugerir um orçamento para cada categoria e indicar quando está ultrapassando. Para melhorar o engajamento da pessoa com as suas finanças, uma abordagem gamificada pode ser utilizada com objetivos e recompensas
-            </p>
-        </div>
 </body>
 </html>
