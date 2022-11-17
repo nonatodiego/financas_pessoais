@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    height: 100vh;  
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #fff;  
+}
+
+.navbar img {
+    width: 331px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 32px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul li a:active {
+    color: #6739B7;
+}
+
+.navbar ul li:last-child {
+    margin-top: 400px;
+}
+
+
+
+
