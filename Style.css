@@ -36,12 +36,21 @@ nav {
     cursor: pointer;
 }
 
-.navbar ul li a:active {
-    color: #6739B7;
+.navbar ul li a:hover {
+    color: #5F259F;
 }
 
 .navbar ul li:last-child {
     margin-top: 400px;
+}
+
+.navbar span {
+    width: 45px;
+    height: 45px;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: rgba(103,57,183,10%);
 }
 
 
