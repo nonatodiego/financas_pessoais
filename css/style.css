@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    background-color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #fff;  
+    height: 100vh;  
+}
+
+.navbar img {
+    width: 331px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 55px 0;
+}
+
+.navbar ul li a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar #active::after {
+    display: inline-block;
+    text-align: center;
+    float: right; /* é velho mas funciona rs*/
+
+
+    content: "";
+    width: 7px;
+    height: 44px;
+    background-color: #5F259F;    
+}
+
+.hvr-sweep-to-right:before{
+    background: #5F259F;   
+}
+
+
+.navbar ul li:last-child {
+    margin-top: calc(55px * 5)
+}
+
+.navbar span {
+    width: 45px;
+    height: 45px;    
+    margin: 8px;
+    padding: 12px;
+    border-radius: 14px;
+    background-color: #1A1A1A;
+}
+
+.navbar ul li #active {
+    background-color: rgba(103,57,183,10%);
+}
+
+.navbar span iconify-icon {
+    /* margin: 8px auto; */
+    font-size: 20px;
+}
+
+
+
+
