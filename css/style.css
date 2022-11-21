@@ -11,6 +11,7 @@ body {
 
 .container {
     display: flex;
+    /* height: 100%; */
 }
 
 .navbar {
@@ -18,7 +19,7 @@ body {
     flex-direction: column;
     background-color: #121212;
     color: #fff;  
-    height: 100vh;  
+    height: 100%;  
 }
 
 .navbar img {
@@ -28,6 +29,7 @@ body {
 .navbar ul li {
     list-style: none;
     margin: 55px 0;
+    /* padding: 3px; */
 }
 
 .navbar ul li a {
@@ -35,6 +37,10 @@ body {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
+
+.navbar #active {
+    border: 0;
 }
 
 .navbar #active::after {
@@ -49,13 +55,9 @@ body {
     background-color: #5F259F;    
 }
 
-.hvr-sweep-to-right:before{
-    background: #5F259F;   
-}
-
 
 .navbar ul li:last-child {
-    margin-top: calc(55px * 5)
+    margin-top: calc(55px * 4)
 }
 
 .navbar span {
@@ -74,6 +76,14 @@ body {
 .navbar span iconify-icon {
     /* margin: 8px auto; */
     font-size: 20px;
+}
+
+.navbar ul li:hover {
+    border-right: 8px solid #5F259F;
+}
+
+.navbar ul li a.btn_sair {
+    color: #E95065;
 }
 
 
