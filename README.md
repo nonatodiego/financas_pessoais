@@ -9,6 +9,13 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
+##  🖋️  Objetivo do Projeto<br>
+
+Este é um projeto utilizado no curso de Sistemas para Internet da PUC Minas
+
+<a href=" https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Sistemas-para-Internet-Tecnologo.aspx?moda=1&curso=441&local=7c032ce9-43f6-4571-b72e-674be76a5b62
+">Sistemas para Internet - Tecnólogo</a>
+
 ## Sobre o programa
 > Com a quantidade de contas digitais e cartões de crédito que uma pessoa pode ter atualmente, somado ao aumento dos preços, é comum que a pessoa acabe perdendo o controle de onde vem e pra onde vai o seu dinheiro. Com isso, precisamos de um programa que permita esta pessoa a registrar seus gastos, contas fixas, assinaturas, saldos em contas digitais, cartões de crédito para ter uma visão unificada de como estão suas contas. Além disso, o programa pode auxiliar a pessoa em sua vida financeira com dicas de como pode economizar dinheiro como identificar um número excessivo de assinaturas de streaming, sugerir o cancelamento de cartões de crédito com anuidade que não estejam sendo utilizados, ou até sugerir um orçamento para cada categoria e indicar quando está ultrapassando. Para melhorar o engajamento da pessoa com as suas finanças, uma abordagem gamificada pode ser utilizada com objetivos e recompensas. 
 
@@ -24,47 +31,44 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Fluxo do usuário ``UserFlow``
+- [x] Wireframe - ``Figma``
+- [x] Desenvolver páginas web estáticas - ``HTML``
+- [x] Desenvolver estilos de páginas web - ``CSS``
+- [ ] Desenvolver páginas web dinâmicas - ``Javascript``
+- [ ] Utilizar API da web no lado do cliente (client-side) ``localStorage com javascript``
+- [ ] Aplicar os princípios associados à direção de arte em produções multimídia na construção de páginas web ``UI/UX``
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você instalou a versão mais recente de `Navegadores de internet (Google Chrome, Opera, Brave, Mozilla Firefox)`
+* Você tem uma máquina `<Windows / Linux / Mac>`.
+* Você leu todo o `README.MD`.
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando o Finanças Pessoais
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o ``Finanças Pessoais``, siga estas etapas:
 
-Linux e macOS:
+Windows, Linux e macOS:
 ```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
+abra seu editor de código preferido e no console digite por git clone <linkDoProjeto>
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando o Finanças Pessoais
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar o ``Finanças Pessoais``, siga estas etapas:
+
 
 ```
-<exemplo_de_uso>
-```
+abra com o auxilio da extensão LIVE SERVER disponivel abaixo: 
+``` 
+<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <nome_do_projeto>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## 📫 Contribuindo para o Finanças Pessoais
+
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -76,21 +80,13 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Agradecemos às seguintes pessoas que contribuíram para este projeto: <br><br>``Grupo 01``
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/42761103?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Diego Nonato</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/101843449?v=4" width="100px;" alt="Foto de Cleide Nascimento"/><br>
+        <img src="https://avatars.githubusercontent.com/u/101843449?v=4" width="100px;" alt="Foto da Cleide Nascimento"/><br>
         <sub>
           <b>Cleide Nascimento</b>
         </sub>
@@ -98,7 +94,15 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/106259150?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://avatars.githubusercontent.com/u/42761103?v=4" width="100px;" alt="Foto do Diego no GitHub"/><br>
+        <sub>
+          <b>Diego Nonato</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/106259150?v=4" width="100px;" alt="Foto da Maria"/><br>
         <sub>
           <b>João Leite</b>
         </sub>
@@ -106,7 +110,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/114960817?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://avatars.githubusercontent.com/u/114960817?v=4" width="100px;" alt="Foto do João"/><br>
         <sub>
           <b>Maria Paula Mangabeira</b>
         </sub>
@@ -116,9 +120,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 </table>
 
 
-## 😄 Seja um dos contribuidores<br>
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
 ## 📝 Licença
 
