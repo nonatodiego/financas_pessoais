@@ -9,6 +9,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -150,11 +155,15 @@ main {
     justify-content: space-around;
     align-items: center;
     /* border: 1px solid red; */
+
+    margin: 24px 0;
 }
 
 main img {
     width: 530px;
     height: 300px;
+
+    border-radius: 16px;
 }
 
 .content {
@@ -172,10 +181,10 @@ main img {
     align-items: center;
     justify-content: space-between;
 
-    padding: 64px;
+    padding: 32px;
    
 
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
 .btn_income, .btn_expense {
@@ -209,6 +218,112 @@ span img {
     height: 15px;
 
     margin: 0 24px ;
+}
+
+main.statistics {
+    /* border: 1px solid green; */
+    margin: 0 32px;
+    height: 100%;
+    align-items: flex-start;
+}
+
+main.statistics h1{
+    font-size: 26px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 16px;
+}
+
+
+
+section.resume {
+    /* border: 1px solid #5F259F; */
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: #121212;
+    margin: 8px;
+    padding: 16px;
+
+    border-radius: 16px;
+}
+
+.resume-first {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191919;
+    padding: 16px;
+
+    border-radius: 16px;
+}
+
+.resume-incomes {
+    flex: 1;
+    background-color: #121212;
+    padding: 16px;
+
+    cursor: pointer;
+}
+
+.resume-first span{
+    color: #fff;    
+}
+
+
+
+.resume-expense {
+    flex: 1;
+    padding: 16px;
+}
+
+.last-months {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+
+    justify-content: space-around;
+
+    gap: 24px;
+}
+
+.last-months img {
+    width: 25px;
+    height: 25px;
+}
+
+.month-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-color: #121212;
+}
+
+.months-1,.months-2,.months-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    background-color: #191919;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+section.history {
+    /* border: 1px solid #5F259F; */
+    flex: 1;
+    background-color: #121212;
+    margin: 8px;
 }
 
 
