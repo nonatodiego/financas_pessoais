@@ -253,8 +253,12 @@ section.resume {
     justify-content: space-around;
     background-color: #191919;
     padding: 16px;
+    margin: 0 100px;
 
     border-radius: 16px;
+
+    /* border: 1px solid red; */   
+
 }
 
 .resume-incomes {
@@ -263,6 +267,8 @@ section.resume {
     padding: 16px;
 
     cursor: pointer;
+    border-radius: 16px;
+
 }
 
 .resume-first span{
