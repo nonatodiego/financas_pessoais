@@ -221,10 +221,9 @@ span img {
 }
 
 main.statistics {
-    /* border: 1px solid green; */
-    margin: 0 32px;
-    height: 100%;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: stretch;
+
 }
 
 main.statistics h1{
@@ -233,8 +232,6 @@ main.statistics h1{
     font-weight: normal;
     margin-left: 16px;
 }
-
-
 
 section.resume {
     /* border: 1px solid #5F259F; */
@@ -248,14 +245,19 @@ section.resume {
     border-radius: 16px;
 }
 
+.resume-incomes, .resume-expense {
+    margin-left: 20px;
+}
+
 .resume-first {
     display: flex;
     justify-content: space-around;
     background-color: #191919;
     padding: 16px;
-    margin: 0 100px;
+    margin: 0 25px;
 
     border-radius: 16px;
+
 
     /* border: 1px solid red; */   
 
@@ -278,7 +280,7 @@ section.resume {
 
 
 .resume-expense {
-    flex: 1;
+    flex: 2;
     padding: 16px;
 }
 
@@ -287,9 +289,9 @@ section.resume {
     flex-direction: row;
     /* border: 1px solid red; */
 
-    justify-content: space-around;
+    justify-content: center;
 
-    gap: 24px;
+    gap: 64px;
 }
 
 .last-months img {
@@ -303,12 +305,20 @@ section.resume {
     justify-content: center;
     align-items: center;
 
+
     width: 50px;
     height: 50px;
 
     border-radius: 50%;
 
     background-color: #121212;
+}
+
+.month-title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14.2963px;
+    line-height: 17px;
 }
 
 .months-1,.months-2,.months-3 {
@@ -330,7 +340,71 @@ section.history {
     flex: 1;
     background-color: #121212;
     margin: 8px;
+    border-radius: 16px;    
+
+    display: flex;
+    flex-direction: column;
 }
+
+section.history ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.history ul li{
+    list-style: none;
+    border-bottom: solid 0.89px #A0A0A033;   
+
+    margin: 0 24px;
+    padding: 10px 0;
+}
+
+section.history ul li:last-child {
+    border-bottom: none;   
+
+}
+
+.history_money {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.history ul li div.history-img{
+    /* border: 1px solid red; */
+
+    display: flex;
+
+    height: 58px;
+    width: 58px;
+
+    background: rgba(103, 57, 183, 0.1);
+    border-radius: 14px;
+
+    
+}
+
+.history-img img {
+    width: 32px;
+    height: 32px;
+
+    margin: auto;
+}
+
+.history_desc {
+    color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 0 0 8px 0;
+}
+
+
+
+
 
 
 
