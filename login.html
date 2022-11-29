@@ -18,18 +18,20 @@
             <input type="password" placeholder="password" required/>
           </form>
           <form class="login-form">
-            <input type="text" placeholder="Usuário" required/>
-            <input type="password" placeholder="Senha" required/>
-            <button> <a class="login" href="index.html">login</a></button>
+            <input type="text" placeholder="Usuário" id="username" required/>
+            <input type="password" placeholder="Senha" id="senha" required/>
+
+
+            <button type="submit">login</button>
             <p class="message"> Cadastre-se<br><br><a href="#">Esqueci minha senha</a></p>
           </form>
         </div>
       </div>
 
-    <script>
-        $('.message a').click(function () {
-            $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
-        });
-    </script>
+
+      <script src="scripts/login.js"></script>
+    </body>  
+
+    
 </body>
 </html>
