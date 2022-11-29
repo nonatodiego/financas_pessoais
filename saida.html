@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças Pessoais</title>
+    <link href="css/hover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/entrada.css">
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html"><img src="imgs/logo.png" alt="logo"></a>
+            <ul>
+                <li id="active">
+                    <a href="">
+                        <span>
+                            <iconify-icon icon="mdi:home" style="color: #5F259F;"></iconify-icon>
+                        </span>
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>
+                            <iconify-icon icon="icons8:buy"></iconify-icon>
+                        </span>
+                        Compras
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>
+                            <iconify-icon icon="mingcute:safe-shield-2-fill"></iconify-icon>
+                        </span>
+                        Segurança
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>
+                            <iconify-icon icon="majesticons:tooltips-2"></iconify-icon>
+                            </iconify-icon>
+                        </span>
+                        Dicas
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>
+                            <iconify-icon icon="material-symbols:settings"></iconify-icon>
+                        </span>
+                        Configurações
+                    </a>
+                </li>
+                <li ">
+                    <a class=" btn_sair" href="login.html">
+                    <span>
+                        <iconify-icon icon="material-symbols:exit-to-app" style="color: #E95065; "></iconify-icon>
+                    </span>
+                    Sair
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <header>
+                <!-- BOTÃO DE IDIOMA -->
+                <form>
+                    <select name="lang" id="lang">
+                        <option value="PtBr" selected>Português</option>
+                        <option value="english" disabled>English</option>
+                        <option value="spanish" disabled>Español</option>
+                    </select>
+                </form>
+                <!-- /BOTÃO DE IDIOMA -->
+                <div class="icons">
+                    <div class="btn-alert">
+                        <iconify-icon icon="material-symbols:add-alert-outline" style="color: #fff;"></iconify-icon>
+                    </div>
+                    <div class="btn-help">
+                        <iconify-icon icon="ic:outline-help-outline" style="color: #fff;"></iconify-icon>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="btns btns_entrada">
+                <div class="btn_income">
+                    <a href="">Despesas</a>
+                    <span><img src="imgs/despesa.png"></span>
+                </div>
+            </div> 
+            
+            <form class="entrada" action="">
+                <label for="categoria">
+                    Categoria:
+                </label>                
+                <select class="categorias" id="categorias">
+                    <option value="">--Selecionar Categoria--</option>
+                    <option value="Boletos">Boletos</option>
+                    <option value="cartoes">Cartões</option>
+                    <option value="faturas">Faturas</option>                    
+                </select>
+
+                <label for="valor">Valor em R$: </label>
+                <input type="number">
+
+                <label for="date">Data: </label>
+                <input type="date" id="date" name="date" min="2022-01-01" max="2022-31-12"/>
+
+                <label for="desc">Descrição:</label>
+                <input type="text">                
+            </form>
+
+            <input class="btn_submit" type="submit"/>
+
+          
+
+
+
+            
+
+        </div> <!-- /Content -->               
+    </div> <!-- /CONTAINER -->
+
+
+    <!-- scripts do index -->
+    <script src="scripts/index.js"></script>
+    <!-- cdn dos icones do menu -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</body>
+
+</html>
