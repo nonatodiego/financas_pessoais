@@ -35,7 +35,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Wireframe - ``Figma``
 - [x] Desenvolver páginas web estáticas - ``HTML``
 - [x] Desenvolver estilos de páginas web - ``CSS``
-- [ ] Desenvolver páginas web dinâmicas - ``Javascript``
+- [x] Desenvolver páginas web dinâmicas - ``Javascript``
 - [ ] Utilizar API da web no lado do cliente (client-side) ``localStorage com javascript``
 - [ ] Aplicar os princípios associados à direção de arte em produções multimídia na construção de páginas web ``UI/UX``
 
