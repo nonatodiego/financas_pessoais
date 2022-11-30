@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Cartão | Finanças Pessoais</title>
+    <link rel="stylesheet" href="AddCard.css">
+</head>
+<body class="body_1">
+    <header class="logo_card">
+        <img src="imgs/logo.png">
+    </header>
+    <main>
+        <div class="login-page">
+            Adicionar cartão
+        </div>
+
+        <div class="form">
+            <form class="register-form">
+                <label for="ccn"></label>
+                <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="Número cartão"><br>
+                <br>
+                <span class="expiration">Validade<br> <input type="text" name="month" placeholder="MM" maxlength="2" size="2" />
+                <span>/    
+                </span>
+                <input type="text" name="year" placeholder="AA" maxlength="2" size="2" /> <br>
+                </span>
+                <br>
+                <input type="text" name="Name" placeholder="Nome completo" required/> <br>
+                <br>
+                <button> <a class="form_button" href="index.html">Adicionar</a></button>
+            </form> <!--FIM DO FORM-->
+        </div>
+        <form class="login-form">
+        </form>
+    </main>
+</body>
+</html>

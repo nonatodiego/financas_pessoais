@@ -1,0 +1,251 @@
+.body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.contaneir {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    fill: #FFFFFF;
+}
+
+.container_cat {
+    color: #181818;
+    position: absolute;
+    width: 287px;
+    height: 1024px;
+    left: -20px;
+    top: 0px;
+    background: #121212;
+}
+.Restaurante {
+    display: flex;
+    background-color: #191919;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 358px;
+    top: 250px;
+    border-radius: 14.3px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: left; 
+    color: white;
+
+}
+
+.Mercado {
+  display: flex;
+  background-color: #191919;
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 710px;
+  top: 250px;
+  border-radius: 14.3px;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  line-height: 100%;
+  text-align: left;  
+  color: white;
+
+}
+
+.saude {
+  display: flex;
+  background-color: #191919;
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  top: 250px;
+  left: 1068px;
+  border-radius: 14.3px;
+  text-align: end;
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  line-height: 100%;
+  text-align: left;
+  color: white;
+
+}
+
+.Casa {
+    display: flex;
+    background-color: #191919;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 1409px;
+    top: 250px;
+    border-radius: 14.3px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: left;    
+    color: white;
+     
+
+}
+
+.Lazer {
+    display: flex;
+    background-color: rgba(25, 25, 25, 1);
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    top: 572px;
+    left: 358px;
+    border-radius: 14.3px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: left;    
+    color: white;
+}
+
+.Reserva {
+    display:flex;
+    background-color: #191919;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    top: 572px;
+    left: 710px;
+    border-radius: 14.3px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: left;
+    color: white;
+
+}
+
+.Transporte {
+    display: flex;
+    background-color: #191919;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    top: 572px;
+    left: 1078px;
+    border-radius: 14.3px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    text-align: left;
+    color: white;
+}
+
+.Educacao {
+    display: flex;
+    background-color: #191919;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    top: 572px;
+    left: 1409px;
+    border-radius: 14.3px;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    line-height: 100%;
+    align-content: space-between;
+    text-align: start;
+    color: white;
+}
+
+
+.categ {
+    position:absolute;
+    width: 857px;
+    height: 132px;
+    top: 24px;
+    left: 816px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54.46px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    align-content:left;
+    
+
+    color: #FFFFFF
+}
+
+   
+
+.Categoria {
+     display: flex;
+     background-color: black;
+     position: absolute;
+     width: 1400px;
+     height: 600px;
+     top: 201px;
+     left: 292px;
+     border-radius: 14.3px;
+     fill: #121212;
+}
+
+.btn_sair {
+
+    width: 60px;
+    height: 14px;
+    top: 887px;
+    left: 96px;
+    font: inter;
+    font-style: normal;
+    font-weight: 400;
+    size: 19px;
+    line-height: 22.99px;
+    text-align: end;
+    vertical-align: top;
+    color: rgba(233, 80, 101, 1);
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #fff;  
+    height: 100vh;  
+    width: 106px;
+    height: 26px;
+    top: 253px;
+    left: 96px;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    
+}
+.navbar img {
+    width: 331px;
+}

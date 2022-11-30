@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Acesso| Finanças Pessoais</title>
+    <link rel="stylesheet" href="acesso1.css">
+</head>
+<body class="body_login">
+    <table>
+    <header class="logo">
+            <img src="imgs/logo.png">
+    </header>
+
+        
+    <main class="input-form"> 
+        <form name="form_input" action="do login.Html" method="post">
+            <input type="text" value="Nome completo"><br>
+            <br>
+            <input type="text" id="numero" placeholder="CPF">
+    <script>
+    let numero = document.getElementById("numero");
+    numero.addEventListener("keypress", e=>{
+        if(e.keyCode>=48 && e.keyCode<=57){
+           // o codigo do 0 ao 9
+        }else{
+       //como eu bloqueio? 
+        }
+    }
+</script><br>
+            <br>
+            <input type="email" value="Email"><br>
+            <br>
+            <input type="password" value="Senha"><br>
+            <br>
+    </main>   
+       
+    <footer class="submit-form">
+            <button> <a class="login" href="index.html">Cadastrar</a></button>
+            <p class="message"><a href="#">Já sou cadastrado</a></p>
+            
+    </footer>
+    </form>
+    </table>   
+</body>
+</html>
