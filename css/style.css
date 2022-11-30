@@ -9,6 +9,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h1 {
+    font-style: normal !important;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -401,6 +405,153 @@ section.history ul li div.history-img{
 
     margin: 0 0 8px 0;
 }
+
+
+aside {
+    width: 425px;
+
+    /* border: 1px solid red; */
+}
+
+aside.add_card {
+    cursor: pointer;
+    padding: 0 20px;
+    background-color: #121212;
+}
+
+aside.add_card .title {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    color: #fff;
+
+    margin-top: 35px;
+    margin-bottom: 22px;
+
+    text-align: start;
+}
+
+aside.add_card .title h1 {
+    font-style: 300;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+aside.add_card .infos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+aside.add_card .infos .perfil {
+    width: 62px;
+    height: 62px;
+    padding: 2px;
+    border: 1.78px solid #91D2E8;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+aside.add_card .infos .perfil img {
+    width: 100%;
+}
+
+aside.add_card .infos .name_number p{
+   color: #fff;
+}
+
+aside.add_card .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+aside.add_card .cards .card {
+    width: 179px;
+    height: 221px;
+    background: linear-gradient(180deg, #6739B7 0%, #9A7EC9 100%);
+    border-radius: 14.2963px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside.add_card .cards .card-small {
+    width: 159px;
+    height: 196px;
+}
+
+aside.add_card .cards .card .card_logo {
+    /* border: 1px solid red; */
+
+    margin: 8px;
+
+}
+
+aside.add_card .cards .card .card_name {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    padding: 0 8px;
+
+    /* border: 1px solid red; */
+}
+
+aside.add_card .cards .card .card_name p {
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: right;
+}
+
+aside.add_card .cards .card .card_number p {
+    font-size: 12px;
+    line-height: 13px;
+
+    text-align: left;
+
+    padding: 0 8px;
+
+    
+
+    color: #fff;
+}
+
+aside.add_card .btn_add {
+    text-align: right;
+}
+
+aside.add_card button {
+    border-radius: 45px;
+    padding: 9px 18px;
+
+    border: 0.89px rgba(255, 255, 255, 0.87) solid;
+
+    margin: 24px;
+    cursor: pointer;
+    color: #fff;
+
+    background-color: transparent;
+
+    /* border: 1px solid red; */
+}
+
+aside.add_card button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+
+
 
 
 

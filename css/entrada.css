@@ -1,0 +1,57 @@
+.btns_entrada {
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: 0 24px;    
+}
+
+
+form.entrada {
+    padding: 8px;
+
+    margin: 16px 0;
+
+    color: rgba(111, 116, 130, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+
+
+label {
+   /* border: 1px solid red;   */
+
+   margin: 16px;   
+}
+
+select.categorias {
+    margin: 0 auto;
+    border: 1px solid royalblue;
+    width: 80%;
+}
+
+input {
+    font-size: 16px;
+    padding: 16px 48px;
+    color: #fff;
+    background-color: #121212;
+    border: 0;
+    cursor: pointer;
+    border-radius: 14px;
+
+    width: 70%;
+
+}
+
+.btn_submit {
+    /* border: 1px solid red; */
+
+    width: 30%;
+
+    display: inline-block;
+    margin: 24px auto;
+}
+
+
