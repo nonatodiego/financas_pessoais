@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categoria | Finanças Pessoais</title>
+    <title>Finanças Pessoais</title>
+    <link href="css/hover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Categoria.css">
 </head>
-<body class="body">
-    <div class="container_cat">
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container">
         <nav class="navbar">
             <a href="index.html"><img src="imgs/logo.png" alt="logo"></a>
             <ul>
                 <li id="active">
-                    <a href="">
+                    <a href="index.html">
                         <span>
                             <iconify-icon icon="mdi:home" style="color: #5F259F;"></iconify-icon>
                         </span>
@@ -21,11 +26,11 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="Categoria.html">
                         <span>
                             <iconify-icon icon="icons8:buy"></iconify-icon>
                         </span>
-                        Compras
+                        Categoria
                     </a>
                 </li>
                 <li>
@@ -53,47 +58,110 @@
                         Configurações
                     </a>
                 </li>
-                <li>
+                <li ">
                     <a class=" btn_sair" href="login.html">
                     <span>
                         <iconify-icon icon="material-symbols:exit-to-app" style="color: #E95065; "></iconify-icon>
                     </span>
-                    <br><br><br><br><br><br><br><br><br><br><br><br>
-                    SAIR
+                    Sair
                     </a>
                 </li>
             </ul>
         </nav>
+        <div class="content">
+            <header>
+                <!-- BOTÃO DE IDIOMA -->
+                <form>
+                    <select name="lang" id="lang">
+                        <option value="PtBr" selected>Português</option>
+                        <option value="english" disabled>English</option>
+                        <option value="spanish" disabled>Español</option>
+                    </select>
+                </form>
+                <!-- /BOTÃO DE IDIOMA -->
+                <div class="icons">
+                    <div class="btn-alert">
+                        <iconify-icon icon="material-symbols:add-alert-outline" style="color: #fff;"></iconify-icon>
+                    </div>
+                    <div class="btn-help">
+                        <iconify-icon icon="ic:outline-help-outline" style="color: #fff;"></iconify-icon>
+                    </div>
+                </div>
+            </header>
+            <!-- /HEADER -->          
+           <div class="container-categorias">
+            <h1>Categorias</h1>
+            <div class="categorias">
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>Restaurante</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/restaurante.png" alt="">
+                    </div>
+               </div>
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>Mercado</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/mercado.png" alt="">
+                    </div>
+               </div>
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>Saúde</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/saudepng.png" alt="">
+                    </div>
+               </div>
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>Lazer</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/lazer.png" alt="">
+                    </div>
+               </div>
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>transporte</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/transporte.png" alt="">
+                    </div>
+               </div>
+               <div class="card-categorias">
+                    <div class="text-price">
+                        <p>Educação</p>
+                        <p>R$ 200</p>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/education.png" alt="">
+                    </div>
+               </div>
+            </div>
+           </div>
 
-        <main class="Categoria">
+
+
             
-            
-            <div> <h1 class="categ">Categorias</h1></div>
-            <br>
-        <section>
-            <div class="Restaurante"> <br>Restaurante <br> <br>R$400,00 </div>
-            <br>
-            <div class="Mercado"> <br>Mercado <br> <br>R$1200,00 </div>
-            <br>
-            <div class="saude"> <br>Saúde <br> <br>R$500,00 </div>
-            <br>
-            <div class="Casa">Casa <br> <br>R$2000,00 </div>
-            <br>
-        </section>
-        <section>
-            <div class="Lazer">Lazer <br> <br>R$300,00  </div>
-             <br>
-            <div class="Reserva">Reserva <br> <br>R$200,00 </div>
-            <br>
-            <div class="Transporte">Transporte <br> <br>R$150,00 </div>
-            <br>
-            <div class="Educacao">Educação <br><br>R$400,00 </div>
-        </section>
+
+        </div> <!-- /Content -->        
+    </div> <!-- /CONTAINER -->
 
 
+    <!-- scripts do index -->
+    <script src="index.js"></script>
+    <!-- cdn dos icones do menu -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 
-        
-        </main>
-    
 </body>
+
 </html>
