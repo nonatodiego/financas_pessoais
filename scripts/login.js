@@ -1,3 +1,5 @@
+sessionStorage.setItem("usuario-logado", 'false');
+
 let formulário = document.querySelector("form");
 
 function usuárioVálido(username, senha){
@@ -9,17 +11,14 @@ function submissão(evento){
    let username = document.querySelector("#username").value;
    let senha = document.querySelector("#senha").value;
    if (usuárioVálido(username, senha)){
-      sessionStorage.setItem("grupo01-29.11.2022-login", true);
+      sessionStorage.setItem("usuario-logado", 'true');
       window.location = "index.html";
    }
    else{
-    sessionStorage.setItem("grupo01-29.11.2022-login", false);  
     alert ("Usuário ou senha inválidos");
-
    }
-
-
 }
 
 formulário.addEventListener("submit", submissão);
+
 
