@@ -96,10 +96,10 @@
                 </div>
             </div> 
             
-            <form class="entrada" action="">
-                <label for="categoria">
+            <form class="entrada">
+                <label for="categorias">
                     Categoria:
-                </label>                
+                </label>
                 <select class="categorias" id="categorias">
                     <option value="">--Selecionar Categoria--</option>
                     <option value="Salario">Salario</option>
@@ -108,29 +108,24 @@
                 </select>
 
                 <label for="valor">Valor em R$: </label>
-                <input type="number">
+                <input type="number" id="valor" />
 
                 <label for="date">Data: </label>
-                <input type="date" id="date" name="date" min="2022-01-01" max="2022-31-12"/>
+                <input type="date" id="date" name="date" min="2022-01-01" max="2022-31-12" />
 
                 <label for="desc">Descrição:</label>
-                <input type="text">                
+                <input type="text" id="desc" />
             </form>
 
-            <input class="btn_submit" type="submit"/>
-
-          
-
-
-
-            
+            <input class="btn_submit" type="button" onclick="salvarEntrada()" value="Salvar Entrada"/>
 
         </div> <!-- /Content -->               
     </div> <!-- /CONTAINER -->
 
 
-    <!-- scripts do index -->
+    <!-- scripts da entrada -->
     <script src="scripts/index.js"></script>
+    <script src="scripts/entrada.js"></script>
     <!-- cdn dos icones do menu -->
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 
